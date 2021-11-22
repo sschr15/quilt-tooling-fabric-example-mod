@@ -36,11 +36,6 @@ dependencies {
 
 	// Fabric API.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-
-	// Quilt Standard Libraries (QSL). This is still in early development and therefore is commented out by default.
-	// It also is incompatible with Fabric API without a helper library, so you'll have to disable Fabric API.
-	// Here be dragons!
-	//modImplementation "org.quiltmc.qsl:qsl:${project.qsl_version}"
 }
 
 processResources {
