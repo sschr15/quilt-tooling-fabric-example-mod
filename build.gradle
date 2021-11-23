@@ -21,9 +21,9 @@ repositories {
 		url = 'https://maven.quiltmc.org/repository/release'
 	}
 	maven {
-        name = 'Quilt Snapshots'
-        url = 'https://maven.quiltmc.org/repository/snapshot'
-    }
+		name = 'Quilt Snapshots'
+		url = 'https://maven.quiltmc.org/repository/snapshot'
+	}
 }
 
 dependencies {
